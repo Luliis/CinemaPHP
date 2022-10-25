@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+} /*Adicionar um fundo */
+.topnav {
+  background-color: #101526;
+  overflow: hidden;
+  overflow: hidden;
+  min-height: 40px;
+} /*Links dentro da navbar*/
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+} /*mudar a cor dos links em hover*/
+.topnav a:hover {
+  background-color: #8c162c;
+  color: #f2f2f2;
+} /*adicionar uma cor ao link ativo*/
+.topnav a.active {
+  background-color: #d91136;
+  color: white;
+} /*fundo da página*/
+body {
+  background-color: rgb(7, 10, 24);
+} /*Imagem navbar */
+.navbarimg {
+  position: relative;
+  top: -78px;
+  right: -1270px;
+} /* INPUT */
+#login {
+  float: center;
+  color: #f2f2f2;
+  text-align: left;
+  margin: -125px 15px;
+  float: top;
+}
+#tittle {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 30px;
+}
+.button {
+  margin: 20px;
+  background-color: #8c162c;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 12px;
+  width: 10%;
+}
+input {
+  width: 100%;
+}
+input[type="password"],
+input[type="email"],
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: #8c162c;
+  color: white;
+}
+.login,
+.login1 {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#cadastro_topnav {
+  font-size: 10px;
+  float: right;
+  margin: 0px 213px;
+}
+
+#login_topnav {
+  font-size: 10px;
+  float: right;
+  margin: 0px -214px;
+}
+#logout_topnav {
+  font-size: 10px;
+  float: right;
+  margin: 0px 250px;
+}
+
+#lista_topnav {
+  font-size: 10px;
+  float: right;
+  margin: 0px -249px;
+}
+h1 {
+  padding: 42px 478px;
+  color: white;
+}
+
+td {
+  color: white;
+}
+.imagemFilme {
+  border-radius: 50px;
+}
+.EmCartaz {
+  margin: 30px 0px 30px 200px;
+}
+.EmCartaz tr td {
+  padding-left: 50px;
+}
+#linha {
+  border: #8c162c solid 2px;
+}
+.button_ver {
+ 
+  background-color: #8c162c;
+  border: none;
+  color: white;
+  padding: 2px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 12px;
+
+}
+.button_ver1
+{
+ 
+  background-color: #8c162c;
+  border: none;
+  color: white;
+  padding: 2px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+}
+.button_pesquisa
+{
+  background-color: #8c162c;
+  color:white;
+}
+
+ ::placeholder
+{
+  color:#D3D3D3;
+}
+.button_del {
+  margin: 20px;
+  background-color: #8c162c;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 12px;
+  width: 10%;
+
+}
+p
+{
+color:white;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+button a{
+    float: left;
+    background-color: #8c162c;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  } /*mu

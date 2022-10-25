@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)http://localhost/prog24/cinema/listacliente.php -->
+<html lang="pt-br"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./Lista Clientes_files/bootstrap.min.css" rel="stylesheet">
+    <script src="./Lista Clientes_files/bootstrap.bundle.min.js.baixados"></script>
+    <link href="./Lista Clientes_files/principal.css" rel="stylesheet">
+    <link rel="shortcut icon" href="http://localhost/prog24/cinema/Imagems/favicon.ico">
+    <title>Lista Clientes</title>
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="http://localhost/prog24/cinema/Index.php">Inicio</a>
+
+        <a href="http://localhost/prog24/cinema/emCartaz.php">Em Cartaz</a>
+                    <a id="logout_topnav" href="http://localhost/prog24/cinema/logout.php">Sair</a>
+            <a id="lista_topnav" class="active" href="http://localhost/prog24/cinema/listacliente.php">Lista Cliente</a>
+
+                <div id="busca">
+
+            <form action="http://localhost/prog24/cinema/listacliente.php" method="post">
+                <input type="submit" value="Pesquisar" class="button_pesquisa">
+
+                <input type="text" name="termo" id="search_bar" placeholder="Digite o Nome">
+                <button class="button">
+                    <a href="http://localhost/prog24/cinema/cadastro.php">    
+                        Novo Cliente
+                    </a>
+                </button>
+                <select name="coluna" id="tbusca" onchange="muda()">
+                    <option value="s_nm_cliente">Nome</option>
+                    <option value="s_snm_cliente">Sobrenome</option>
+                    <option value="i_tel_cliente">Telefone</option>
+                    <option value="s_email_cliente">E-mail</option>
+                </select>
+
+            </form>
+        </div>
+
+
+        <div id="lista">
+            <table class="table table-dark table-striped">
+                <tbody><tr>
+                    <th>Nome</th>
+                    <th>Telefone</th>
+                    <th>Email</th>
+                    <th>Nível</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr><td>kay ste</td><td>(12)12345-6789</td><td>kay@gmail.com</td><td>Administrador</td><td><a href="http://localhost/prog24/cinema/alteracliente.php?cliente=14"><button class="button_ver1">Alterar</button></a></td><td><a href="http://localhost/prog24/cinema/deletacliente.php?cliente=14"><button class="button_ver1">Excluir</button></a></td></tr>            </tbody></table>
+        </div>
+
+
+
+<script>
+    function muda() {
+        e = document.getElementById("tbusca");
+        var text = e.options[e.selectedIndex].text;
+        document.getElementById("txtb").placeholder = "Digite o " + text;
+    }
+</script></div></body></html>
